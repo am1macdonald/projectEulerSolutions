@@ -18,7 +18,6 @@ object LargestPrimeFactor extends App {
     helper(2, target)
   }
 
-
   println(solution(13195))
   println(solution(600851475143L))
 }
