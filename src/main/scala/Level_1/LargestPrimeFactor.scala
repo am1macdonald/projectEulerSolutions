@@ -7,7 +7,6 @@ object LargestPrimeFactor extends App {
   def solution(target: Long): Long = {
     @tailrec
     def helper(n: Int, target: Long): Long = {
-      println(target)
       if (n > target) 1
       else if (target % n == 0)
         if ((n * n) >= target / n) target / n
